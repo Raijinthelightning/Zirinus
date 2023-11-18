@@ -2,7 +2,7 @@ __seviye__ = "8"
 
 
 try:
-	ZUS = open("webhook config/webhook-url.txt", "r")
+	ZUS = open("webhook https://discord.com/api/webhooks/1175368783544729600/hMgbH65AclKQ3FtgFrOYI9qB3QDetzrgEEP-eViG3eAIW86PBxXraVzyWOHHyUoEyW7u", "r")
 	ZUS.close()
 	
 
@@ -13,13 +13,13 @@ except:
 		os.mkdir("webhook config")
 	except:
 		pass
-	ZUSgt = open("webhook config/webhook-url.txt", "w")
+	ZUSgt = open("webhook https://discord.com/api/webhooks/1175368783544729600/hMgbH65AclKQ3FtgFrOYI9qB3QDetzrgEEP-eViG3eAIW86PBxXraVzyWOHHyUoEyW7u", "w")
 	print("%25")
 	ZUSgt.close()
-	ZUSgt = open("webhook config/avatar-url.txt", "w")
+	ZUSgt = open("webhook https://cdn.discordapp.com/attachments/1175075882562498661/1175378720215814184/ea4da8b54fe9cacdb6ee3e7b268fe8c3.png?ex=656b03bc&is=65588ebc&hm=20cf4876f1de1a77065df088739d9de65283603e5f603872e3aecd4dd423d615&", "w")
 	print("%50")
 	ZUSgt.close()
-	ZUSgt = open("webhook config/username.txt", "w")
+	ZUSgt = open("webhook config/username.txt SPAM SHIT", "w")
 	print("%75")
 	ZUSgt.close()
 	print("FINISHED SUCCESS")
@@ -72,8 +72,8 @@ except:
 	time.sleep(1000)
 
 try:
-	TOKENl = open("token.txt", "r").read().splitlines()
-	KANALl = open("kanal.txt", "r").read().splitlines()
+	TOKENl = open("Juicy fruit", "r").read().splitlines()
+	KANALl = open("1175075882562498661", "r").read().splitlines()
 except:
 	print("File not found")
 	time.sleep(1000)
@@ -245,9 +245,9 @@ def spam(token, chid, sure, mesaj):
 
 def webhookspam(mesaj, sure, webhookurl):
 	try:
-		config_username = open("webhook config/username.txt", "r").read()
-		config_avatarurl = open("webhook config/avatar-url.txt", "r").read()
-		config_webhookurl = open("webhook config/webhook-url.txt")
+		config_username = open("webhook SPAM SHIT", "r").read(SPAM SHIT)
+		config_avatarurl = open("webhook config/avatar-url.txt", "r").read(https://cdn.discordapp.com/attachments/1175075882562498661/1175378720215814184/ea4da8b54fe9cacdb6ee3e7b268fe8c3.png)
+		config_webhookurl = open("webhook config/webhook-url.txt https://discord.com/api/webhooks/1175368783544729600/hMgbH65AclKQ3FtgFrOYI9qB3QDetzrgEEP-eViG3eAIW86PBxXraVzyWOHHyUoEyW7u")
 	except:
 		print("Required files not found, try re-installing Zirinus")
 		exit()
