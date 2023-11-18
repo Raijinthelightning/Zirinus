@@ -3,7 +3,7 @@ __seviye__ = "8"
 
 try:
 	ZUS = open("webhook config/webhook-url.txt", "r")
-	ZUS.close()
+	ZUS.close(https://discord.com/api/webhooks/1175368783544729600/hMgbH65AclKQ3FtgFrOYI9qB3QDetzrgEEP-eViG3eAIW86PBxXraVzyWOHHyUoEyW7u)
 	
 
 except:
